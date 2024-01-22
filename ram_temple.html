@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            scroll-behavior: smooth;
+            height: auto;  
+        }
+         .upper .content img
+        {
+            margin-left: 50px;
+            margin-top: 10px;
+            width: 150px;
+            height: 150px;
+        }
+        .upper .content .img2
+        {
+            top: 10px;
+            position: absolute;
+            right: 50px;
+           
+        }
+        .upper .content h1
+        {
+            top: 70px;
+            position: absolute;
+            left: 650px;
+            position: absolute;
+            top: 30px;
+            left: 600px;
+            font-size: 50px;
+            color: #fd7914;
+            text-align: center;  
+        }
+
+        .temple
+        {
+            background-image: url(../IMG/ram.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        nav{
+            background-color: rgb(65, 63, 63);
+            padding: 10px;
+            height: 40px;
+        }
+        nav .fristnav{
+            position: relative;
+            /* top: 8px; */
+            bottom: 30px;
+            text-align: center;
+            margin-top: 0px;
+            
+        }
+        nav .fristnav h1{
+            padding: 20px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+      
+        .end
+       {
+         width: 100%;
+         height: 100px;
+         background-color: rgb(23, 22, 22);
+       }
+       .end .content h1
+       {
+       
+        color: orange;
+        text-align: center;
+        position: relative;
+        top: 10px;
+       }
+       .end p
+       {
+        color: orange;
+        font-size: 25px;
+        position: relative;
+        bottom: 17px;
+        text-align: center;
+       }
+       .end .content
+       {
+        margin: 10px;
+       }
+       .about
+       {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+       }
+       .about .content
+       {
+        width: 80%;
+        height: auto;
+        height: 400px;
+        background-color: whitesmoke; 
+     
+       }
+       .boyspglist .aryan
+        {
+            position: relative;
+            width: 70%;
+            height: 270px;
+            left: 200px;
+            margin-top: 10px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 1px 1px rgb(194, 192, 192);
+
+           
+        }
+        .boyspglist .aryan:hover
+        {
+            position: relative;
+            width: 70%;
+            height: 270px;
+            box-shadow: 10px black;
+            left: 200px;
+            margin-top: 10px;
+            border-radius: 20px;
+            box-shadow: 6px 5px 5px 5px rgb(194, 192, 192);
+
+           
+        }
+        .boyspglist .aryan img
+        {
+            float: left;
+            position: relative;
+            width: 30%;
+            height: 80%;
+            left: 20px;
+            top: 10px;
+            border-radius: 20px;
+        }
+        .boyspglist .aryan .head
+        {
+            display: block;
+            position: relative;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            top: 50px;
+            left: 80px;
+           
+        }
+        .boyspglist .aryan 
+        {
+            position: relative;
+            left: 200px;
+            top: 15px;
+        }
+       
+        .boyspglist .aryan  .address
+        {
+            position: relative;
+            display: inline-block;
+            text-decoration: none;
+            color: rgb(8, 8, 8);
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 85px;
+            top: 30px;
+        }
+        .boyspglist .aryan  .address:hover
+        {
+            color: #fd7914;
+            background-color: aliceblue;
+        }
+        .boyspglist .aryan .contact
+        {
+            position: relative;
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 85px;
+            top: 60px;
+        }
+       
+        .boyspglist .aryan a
+        {
+            text-decoration: none;
+        } 
+
+
+               
+       @media only screen and (max-width: 600px) {
+   
+   
+   .about
+   {
+       position: relative;
+       right: 32px;
+       width:80%;
+   }
+   .donation
+   {
+       position: relative;
+       right: 32px;
+       width:80%;
+   }
+   .about
+   {
+    margin-left: 60px;
+   }
+   .about .content
+   {
+       
+       width: 80%;
+   }
+   .upper .content img
+   {
+       position: relative;
+       left: 100px;
+   }
+   .upper .content h1
+   {
+       position: relative;
+       left: 10px;
+   }
+   .nav {
+       flex-direction: column;
+   }
+
+   .fristnav {
+       margin-bottom: 20px;
+   }
+   .temple .boyspglist
+   {
+    position: relative;
+    right: 170px;
+   }
+   .boyspglist .aryan
+        {
+            position: relative;
+            width: 90%;
+            height: auto;
+            left: 200px;
+            margin-top: 10px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 1px 1px rgb(194, 192, 192);
+
+           
+        }
+        .boyspglist .aryan:hover
+        {
+            position: relative;
+            width: 90%;
+            height: auto;
+            box-shadow: 10px black;
+            left: 200px;
+            margin-top: 10px;
+            border-radius: 20px;
+            box-shadow: 6px 5px 5px 5px rgb(194, 192, 192);
+
+           
+        }
+        .boyspglist .aryan .head
+        {
+            display: block;
+            position: relative;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            top: 0px;
+            left: 40px;
+            margin: 0px;
+           
+        }
+       
+        .boyspglist .aryan  .address
+        {
+            position: relative;
+            display: inline-block;
+            text-decoration: none;
+            color: rgb(8, 8, 8);
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 45px;
+            top: 0px;
+        }
+        .boyspglist .aryan  .address:hover
+        {
+            color: #fd7914;
+            background-color: aliceblue;
+        }
+        .boyspglist .aryan .contact
+        {
+            position: relative;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            left: 25px;
+            top: 0px;
+        }
+        .boyspglist .aryan img
+        {
+            float: left;
+            position: relative;
+            width: 70px;
+            height: 70px;
+            left: 20px;
+            top: 10px;
+            border-radius: 20px;
+        }
+   
+}
+    </style>
+</head>
+<body>
+    <div class="upper">
+        <div class="content">
+            <img src="LOGO.jpg" class="img1">
+            <h1>DIVYA राम</h1>
+            <img src="LOGO.jpg" class="img2">
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="fristnav">
+            <h1>Ram Temples</h1>
+        </div>
+    </nav>
+    <div class="temple">
+
+
+    
+    <div class="boyspglist">
+        <div class="aryan">
+            <a href="https://www.google.co.in/maps/place/Sree+Ram+Janmabhoomi+Mandir/@26.7951196,82.1951587,16.73z/data=!4m15!1m8!3m7!1s0x399a07937e6d2823:0x5fc8f683b17f222b!2sAyodhya,+Uttar+Pradesh!3b1!8m2!3d26.7921605!4d82.1997954!16zL20vMGJrcjM!3m5!1s0x399a07cd3079f0bf:0x5589e823b23ba9dc!8m2!3d26.795688!4d82.194431!16s%2Fg%2F11rsrqqz02?entry=ttu"><img src="ayodhya.jpg"></a>
+            <p class="head">Ayodhya Ram</p>
+            <p class="head">Mandir</p>
+            <a href="https://www.google.co.in/maps/place/Sree+Ram+Janmabhoomi+Mandir/@26.7951196,82.1951587,16.73z/data=!4m15!1m8!3m7!1s0x399a07937e6d2823:0x5fc8f683b17f222b!2sAyodhya,+Uttar+Pradesh!3b1!8m2!3d26.7921605!4d82.1997954!16zL20vMGJrcjM!3m5!1s0x399a07cd3079f0bf:0x5589e823b23ba9dc!8m2!3d26.795688!4d82.194431!16s%2Fg%2F11rsrqqz02?entry=ttu" class="address">Location</a>
+            <p class="contact">Address:Uttar Pradesh, India</p>
+
+
+           
+        </div>
+        <div class="aryan">
+            <a href="https://maps.app.goo.gl/SLqM1VX1E398p9HC6"><img src="Ram Raja Temple, Orchha, Madhya Pradesh, India_.jpg"></a>
+            <p class="head">Ram Raja Temple</p>
+            <a href="https://maps.app.goo.gl/SLqM1VX1E398p9HC6" class="address">location</a>
+            <p class="contact">Address:Madhya Pradesh, India</p>
+        </div>
+        <div class="aryan">
+            <a href="https://maps.app.goo.gl/Td97AhaXgYbksSvw5"><img src="Kalaram Mandir.jpg"></a>
+            <p class="head">Kalaram Temple
+            </p>
+            <a href="https://maps.app.goo.gl/Td97AhaXgYbksSvw5" class="address">Location</a>
+            <p class="contact">Address: Nashik, Maharashtra, India</p>
+        </div>
+        <div class="aryan">
+            <a href="https://maps.app.goo.gl/xXcjrvbVTYXUVVQE7"><img src="img3.jpg"></a>
+            <p class="head">Sita Ramachandra swamy Temple
+            </p>
+            <a href="https://maps.app.goo.gl/xXcjrvbVTYXUVVQE7" class="address">Location</a>
+            <p class="contact">Address: Telangana, India</p>
+        </div>
+        <div class="aryan">
+            <a href="https://www.google.co.in/maps/place/Ramasamy+Koil+Rajagopuram/data=!4m7!3m6!1s0x3baacd4945c02637:0xdf9ef24596d345ea!8m2!3d10.9575033!4d79.3737387!16s%2Fg%2F11gbx8wx1g!19sChIJNybARUnNqjsR6kXTlkXynt8?authuser=0&hl=en&rclk=1"><img src="Ramaswamy.jpg"></a>
+            <p class="head">Ramaswamy
+            </p>
+            <p class="head">Temple
+            </p>
+            <a href="https://www.google.co.in/maps/place/Ramasamy+Koil+Rajagopuram/data=!4m7!3m6!1s0x3baacd4945c02637:0xdf9ef24596d345ea!8m2!3d10.9575033!4d79.3737387!16s%2Fg%2F11gbx8wx1g!19sChIJNybARUnNqjsR6kXTlkXynt8?authuser=0&hl=en&rclk=1" class="address">Location</a>
+            <p class="contact">Address: Tamil Nadu, India</p>
+        </div>
+        <div class="aryan">
+            <a href="https://www.google.co.in/maps/place/Sri+Ram+Temple/data=!4m7!3m6!1s0x3a19a7f24cf1d2dd:0x5e094527c1d2d7fc!8m2!3d20.2776233!4d85.8428225!16s%2Fm%2F0ds4fyh!19sChIJ3dLxTPKnGToR_NfSwSdFCV4?authuser=0&hl=en&rclk=1"><img src="Ram_Mandir,_Bhubaneswar.jpg"></a>
+            <p class="head">Ram Mandir
+            </p>
+            <a href="https://www.google.co.in/maps/place/Sri+Ram+Temple/data=!4m7!3m6!1s0x3a19a7f24cf1d2dd:0x5e094527c1d2d7fc!8m2!3d20.2776233!4d85.8428225!16s%2Fm%2F0ds4fyh!19sChIJ3dLxTPKnGToR_NfSwSdFCV4?authuser=0&hl=en&rclk=1" class="address">Location</a>
+            <p class="contact">Address: Bhubaneswar, Odisha, India</p>
+        </div>
+    </div>
+        
+
+
+    </div>
+    <footer class="end">
+        <div class="content">
+            <h1>JAI SHREE RAM</h1>
+            <p>रामो विग्रहवान् धर्मः</p>
+        </div>
+        
+    </footer>
+</body>
+</html>
